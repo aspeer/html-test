@@ -22,7 +22,7 @@ while (my $client = $server->accept()) {
     my $body = <<"HTML";
 <!DOCTYPE html>
 <html>
-<head><title>Current Time</title></head>
+<head><title>Current Time in Adelaide</title></head>
 <body>
 <p>Current time: $time</p>
 </body>
