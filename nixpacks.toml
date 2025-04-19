@@ -1,0 +1,12 @@
+[nix]
+packages = ["perl"]
+
+[phases.build]
+commands = []
+
+[start]
+cmd = "perl time.pl"
+
+[ports]
+http = 8080
+
